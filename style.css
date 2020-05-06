@@ -1,0 +1,58 @@
+body{
+  padding: 15px 200px 15px 200px;
+  text-align: justify;
+  font-size: 2em;
+  background-color: pink;
+  font-family: courier;
+}
+button{
+  width: 250px;
+  height: 50px;
+  margin: 20px 10px;
+  border: 2px solid brown;
+  border-radius: 10px;
+  background-color: #131010;
+  color: brown;
+  font-size: 0.5em;
+  font-weight: bold;
+  font-family: courier;
+}
+.boutonnière{
+  display: flex;
+}
+.text{
+  border: 1px solid brown;
+  padding: 25px;
+  border-radius: 10px;
+}
+.theme1{
+  background-color: pink;
+  color: black;
+  transition: color 2s, background-color 3s;
+}
+.theme2{
+  background-color: black;
+  color: pink;
+  transition: color 2s, background-color 3s;
+}
+.theme3{
+  background-color: #eadde0;
+  color: #715e5e;
+  transition: color 2s, background-color 3s;
+}
+.theme4{
+  color: #00f200;
+  background-color: #141c01;
+  transition: color 2s, background-color 3s;
+}
+.theme1 .day-button-haut,
+.theme2 .night-button-haut,
+.theme3 .down-button-haut,
+.theme4 .hack-button-haut,
+.theme1 .day-button-bas,
+.theme2 .night-button-bas,
+.theme3 .down-button-bas,
+.theme4 .hack-button-bas{
+  background-color: white;
+  border: 2px solid black;
+}
